@@ -1,7 +1,6 @@
 {
-  "buildCommand": "wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.148.0/hugo_0.148.0_linux_amd64.tar.gz && tar -zxf hugo.tar.gz && ./hugo --gc --minify",
+  "buildCommand": "curl -fsSL https://github.com/gohugoio/hugo/releases/download/v0.148.0/hugo_0.148.0_linux_amd64.tar.gz -o hugo.tar.gz && tar xf hugo.tar.gz && ./hugo --gc --minify",
   "outputDirectory": "public",
   "framework": null,
   "installCommand": ""
 }
-
