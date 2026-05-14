@@ -1,0 +1,8 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'My Dev Blog'
+theme = 'PaperMod'
+
+[params]
+  homeInfoParams = { Title = "Building 12 Tools in 12 Months", Content = "Documenting the journey from C programmer to indie hacker." }
+  socialIcons = []
