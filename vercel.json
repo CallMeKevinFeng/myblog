@@ -1,1 +1,6 @@
-{"outputDirectory": "public"}
+{
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
+  "framework": "hugo",
+  "installCommand": ""
+}
