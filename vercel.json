@@ -1,7 +1,7 @@
-
 {
-  "buildCommand": "hugo --gc --minify",
+  "buildCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.147.0/hugo_0.147.0_Linux_amd64.tar.gz | tar zx && ./hugo --gc --minify",
   "outputDirectory": "public",
-  "framework": "hugo",
+  "framework": null,
   "installCommand": ""
 }
+
