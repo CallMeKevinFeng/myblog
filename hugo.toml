@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://myblog-gilt-three.vercel.app/'
 languageCode = 'en-us'
 title = 'My Dev Blog'
 theme = 'PaperMod'
